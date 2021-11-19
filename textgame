@@ -1,0 +1,13 @@
+
+def textgame():
+    answer = input("What is the first step you take after you enter the car? (put on seatbelt/start the car")
+    if answer.lower().strip() == "put on seatbelt":
+        answer = input("You put on your seatbelt, now what is your next step? (start the car/check your mirrors/put your foot on the brake").lower().strip()
+        if answer == "check your mirrors":
+
+        else:
+            print("Not yet, please try again")
+    else:
+        print("That is not the correct step, please try again")
+
+
