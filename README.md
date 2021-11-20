@@ -11,3 +11,4 @@
 - [ ] Test code periodically and when finished to ensure everything is working correctly
 - [ ] Design layout for the page and make it look simple so that everything fits right in
 - [x] Create a rough layout of code and begin with a few questions to get a pattern starting
+- [ ] Fix any files that need to be redone with markdown language
