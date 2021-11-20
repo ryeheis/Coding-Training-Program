@@ -18,3 +18,4 @@ def textgame():
         print("That is not the correct step, please try again")
 
 
+textgame()
