@@ -6,6 +6,9 @@ def textgame():
         if answer == "check your mirrors":
             answer = input("You adjust your mirrors to the correct angle, what do you do next? (put your foot on the brake/start the engine/adjust climate control)")
             if answer == "put your foot on the brake":
+                answer = input("You place your right foot on the brake and push down, what's next? (start the engine/press on the gas)")
+                if answer == "start the engine":
+                    print("Congratulations, you have taken the correct steps in entering your car and making sure everything is in check before you start driving!")
 
             elif answer == "start the engine":
                 print("There is something you have to do first, try again")
